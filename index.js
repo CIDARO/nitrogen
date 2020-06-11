@@ -15,14 +15,14 @@ const Spinner = CLI.Spinner;
 const Web3 = require('web3');
 
 const run = async () => {
+    // Clear the terminal
+    clear();    
     // Log the figlet logo
     console.log(
         chalk.green(
             figlet.textSync('Nitrogen', { horizontalLayout: 'full' })
         )
     );
-    // Clear the terminal
-    clear();
     // Get whether Infura must be used, if past events must be logged
     // and if the export is enabled
     const defaultsResult = await inquirer.askDefaults();

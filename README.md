@@ -35,7 +35,11 @@
 
 ## Install
 
-Work in progress.
+In order to install Nitrogen you need to run the following command:
+
+```bash
+npm install -g @cidaro/nitrogen
+```
 
 ---
 
