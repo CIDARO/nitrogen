@@ -1,6 +1,6 @@
 {
   "name": "@cidaro/nitrogen",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Nitrogen is a CLI for listening to an Ethereum Smart Contract events.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,13 @@
   "bugs": {
     "url": "https://github.com/CIDARO/nitrogen/issues"
   },
-  "keywords":["ethereum", "cli", "smart contract", "nodejs", "web3"],
+  "keywords": [
+    "ethereum",
+    "cli",
+    "smart contract",
+    "nodejs",
+    "web3"
+  ],
   "homepage": "https://github.com/CIDARO/nitrogen#readme",
   "dependencies": {
     "chalk": "^4.1.0",
