@@ -7,7 +7,7 @@
     Open Source CLI Ethereum Smart Contract event listener and exporter. 
   </p>
   <p>
-    version 1.0.2
+    version 1.0.3
   </p>
   <br/>
   <p>
