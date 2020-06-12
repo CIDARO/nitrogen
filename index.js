@@ -35,7 +35,7 @@ const run = async () => {
         smartContractAddress: '', // Smart Contract Address
         smartContractABI: null, // Smart Contract ABI .json file
         exportEnabled, // Checks if the export is enabled
-        exportFilename: './export.json' // Default export filename is this
+        exportFilename: `${process.cwd()}/export.json` // Default export filename is this
     };
     // If export is enabled, create the empty export.json file
     if (data.exportEnabled) {
