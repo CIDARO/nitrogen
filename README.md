@@ -59,7 +59,7 @@ Nitrogen is really easy to use: just run the `nitrogen` command in the terminal 
 
 The Ethereum Smart Contract Event json is structured as follows: 
 
-```json
+```
 {
   "address":"0x11FA7f0C8B90bA7137cDaE6261e82e0cAbDE9632", // Contract address
   "blockHash":"0x4242bfb4ce768298185089fa21400e7161772c1d7782b96e1d8da53a37462816", // Block hash
