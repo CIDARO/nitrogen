@@ -1,6 +1,6 @@
 {
   "name": "@cidaro/nitrogen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nitrogen is a CLI for listening to an Ethereum Smart Contract events.",
   "main": "index.js",
   "scripts": {

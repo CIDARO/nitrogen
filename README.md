@@ -31,6 +31,14 @@
 
 **Nitrogen** is an Open Source CLI Ethereum Smart Contract event listener and exporter made with NodeJS.
 
+Basically it just listens on events (from the past - if you want - and future) and exports them into an `export.json` file containing an array of events.
+
+In the next future releases we want to add the following features:
+- [ ] Allow users to save the configuration 
+- [ ] Multiple Smart Contracts listening
+- [ ] Customizable filename export
+- [ ] Customizable export format (i.e. .xlsx, .csv)
+
 ---
 
 ## Install
@@ -45,7 +53,7 @@ npm install -g @cidaro/nitrogen
 
 ## Usage
 
-Work in progress.
+Nitrogen is really easy to use: just run the `nitrogen` command in the terminal and respond to the questions!
 
 ---
 
